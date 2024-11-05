@@ -9,11 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ProdutosApiApplication {
 
-	@GetMapping("/hello")
-	public String helloWord(){
-		return "hello ";
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(ProdutosApiApplication.class, args);
 	}
